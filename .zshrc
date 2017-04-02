@@ -54,7 +54,7 @@ ZSH_THEME="miloshadzic"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-256color, git, autopep8, celery, colorize, debian, django, github, heroku, jsontools, postgres, shrink-path, tmux, ubuntu)
+plugins=(zsh-256color, git, autopep8, celery, colorize, debian, ng, django, github, heroku, jsontools, postgres, shrink-path, tmux, ubuntu)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -129,3 +129,7 @@ alias finnegan="ssh root@$FINNEGAN_VPS"
 
 source virtualenvwrapper.sh
 export PROJECT_HOME=/home/wes/projects
+
+# load jupyter theme
+jt -t oceans16 -f dejavu -fs 10
+

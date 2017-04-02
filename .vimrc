@@ -28,6 +28,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'nvie/vim-flake8'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'leafgarland/typescript-vim'
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -37,6 +38,9 @@ filetype plugin indent on
 
 set term=screen-256color
 colorscheme PaperColor
+
+
+let python_highlight_all=1
 
 set autoindent
 set bg=dark
