@@ -129,3 +129,4 @@ alias finnegan="ssh root@$FINNEGAN_VPS"
 
 source virtualenvwrapper.sh
 export PROJECT_HOME=/home/wes/projects
+export GOPATH=$HOME/Go
