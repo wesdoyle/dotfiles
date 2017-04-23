@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Set your current project here, which should be located in ~/projects/
-export CURRENT_PROJECT="riverrun"
+export CURRENT_PROJECT="blog"
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/finn/.oh-my-zsh
@@ -110,7 +110,7 @@ alias ta="tmux attach -t"
 
 # django stuff
 alias rabbit="invoke-rc.d rabbitmq-server"
-alias djangotest="project && python manage.py test"
+alias dtest="project && python manage.py test"
 alias celeryworker="celery -A $CURRENT_PROJECT worker -l info"
 alias runserver="cd ~/projects/$CURRENT_PROJECT && python manage.py runserver"
 alias collect="cd ~/projects/$CURRENT_PROJECT && python manage.py collectstatic"
@@ -130,3 +130,4 @@ alias finnegan="ssh root@$FINNEGAN_VPS"
 source virtualenvwrapper.sh
 export PROJECT_HOME=/home/wes/projects
 export GOPATH=$HOME/Go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
