@@ -1,5 +1,5 @@
 " Wes Doyle vimrc
-" Last Update Feb 8 2017
+" Last Update March 20 2018
 
 set nocompatible
 
