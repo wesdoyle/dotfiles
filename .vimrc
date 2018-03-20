@@ -13,7 +13,6 @@ call vundle#begin()
 
 " plugins
 Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-surround'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -22,8 +21,6 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-repeat'
-Plugin 'mattn/emmet-vim'
-Plugin 'raimondi/delimitmate'
 Plugin 'tpope/vim-markdown'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'nvie/vim-flake8'
@@ -61,7 +58,7 @@ set nowrap
 set number
 set relativenumber
 set ruler
-set scrolloff=8
+set scrolloff=5
 set showmatch
 set shiftwidth=4
 set shortmess=I
