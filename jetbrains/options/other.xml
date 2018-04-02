@@ -1,0 +1,23 @@
+<application>
+  <component name="PyCodeInsightSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FUNCTION" value="true" />
+    <option name="RENAME_SEARCH_NON_CODE_FOR_FUNCTION" value="true" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="C:\Users\wdoyle\AppData\Local\Continuum\anaconda3\python.exe" value="true" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="C:\Users\wdoyle\AppData\Local\Continuum\anaconda3\python.exe" value="true" />
+      </map>
+    </option>
+    <option name="SDK_TO_TRIALTEST">
+      <map>
+        <entry key="C:\Users\wdoyle\AppData\Local\Continuum\anaconda3\python.exe" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

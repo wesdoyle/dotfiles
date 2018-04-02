@@ -1,0 +1,3 @@
+BashSupport
+IdeaVIM
+org.jetbrains.plugins.yaml

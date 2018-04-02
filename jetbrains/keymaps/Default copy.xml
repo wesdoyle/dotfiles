@@ -1,0 +1,21 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="CollapseSelection" />
+  <action id="EditorChooseLookupItemDot" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift f12" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="JumpToLastWindow" />
+  <action id="ParameterInfo" />
+  <action id="RestoreDefaultLayout" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="StructuralSearchPlugin.StructuralSearchAction">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+</keymap>

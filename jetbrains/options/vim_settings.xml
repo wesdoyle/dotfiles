@@ -1,0 +1,449 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/projects/classification-scripts/FileHelpers.py" timestamp="1520541728206">
+        <mark key="'" line="24" column="0" />
+        <mark key="[" line="16" column="27" />
+        <mark key="]" line="16" column="27" />
+        <mark key="^" line="16" column="27" />
+        <mark key="." line="16" column="27" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/ClassifyLoanPages.py" timestamp="1520610432827">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="^" line="130" column="10" />
+        <mark key="." line="57" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/lib/symspell_python3.py" timestamp="1521645039577">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="41" column="0" />
+        <mark key="]" line="345" column="0" />
+        <mark key="." line="286" column="3" />
+        <mark key="^" line="286" column="3" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/Helpers/CriticalDocs.py" timestamp="1521645079989">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="/a.dummy" timestamp="1522418410363">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/tests/PartitionDocIndexTests.py" timestamp="1521661814678">
+        <mark key="'" line="18" column="0" />
+        <mark key="[" line="60" column="8" />
+        <mark key="]" line="61" column="7" />
+        <mark key="." line="61" column="7" />
+        <mark key="^" line="61" column="7" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/Helpers/RemoveFiles.py" timestamp="1522357472783">
+        <mark key="'" line="25" column="0" />
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="25" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/BuildDataTuple.py" timestamp="1520608010129">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="90" column="69" />
+        <mark key="]" line="90" column="3" />
+        <mark key="." line="90" column="3" />
+        <mark key="^" line="90" column="3" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/utils/OcrLocalPngs.py" timestamp="1521645269180">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="34" column="47" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/demo/AllScripts.py" timestamp="1521645321595">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/utils/CleanText.py" timestamp="1521659915884">
+        <mark key="'" line="141" column="0" />
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/Helpers/FileHelpers.py" timestamp="1521645097878">
+        <mark key="'" line="34" column="0" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="34" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/MergeClassificationResults.py" timestamp="1521661645940">
+        <mark key="'" line="25" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="2" column="10" />
+        <mark key="^" line="22" column="47" />
+        <mark key="." line="24" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/KerasHelpers.py" timestamp="1520550118879">
+        <mark key="'" line="44" column="0" />
+        <mark key="[" line="8" column="43" />
+        <mark key="]" line="8" column="52" />
+        <mark key="." line="8" column="52" />
+        <mark key="^" line="8" column="52" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/BuildCleanSet.py" timestamp="1521660074266">
+        <mark key="'" line="7" column="0" />
+        <mark key="]" line="85" column="25" />
+        <mark key="^" line="85" column="25" />
+        <mark key="." line="85" column="25" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/Helpers/KerasHelpers.py" timestamp="1521645112718">
+        <mark key="'" line="148" column="0" />
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="148" column="61" />
+        <mark key="." line="18" column="0" />
+        <mark key="^" line="55" column="80" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1521761092361">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/config/config.py" timestamp="1521645137012">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="3" column="24" />
+        <mark key="." line="3" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" timestamp="1522357466879">
+        <mark key="'" line="122" column="0" />
+        <mark key="[" line="64" column="27" />
+        <mark key="]" line="64" column="29" />
+        <mark key="^" line="64" column="29" />
+        <mark key="." line="64" column="29" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" timestamp="1522418431403">
+        <mark key="'" line="33" column="0" />
+        <mark key="[" line="31" column="55" />
+        <mark key="]" line="31" column="58" />
+        <mark key="^" line="31" column="58" />
+        <mark key="." line="31" column="58" />
+      </file>
+      <file name="$USER_HOME$/personal/oxlc/tic-tac-toe/python/ttt.py" timestamp="1521764496927">
+        <mark key="'" line="77" column="0" />
+        <mark key="[" line="50" column="12" />
+        <mark key="]" line="50" column="18" />
+        <mark key="." line="50" column="18" />
+        <mark key="^" line="50" column="18" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/PartitionDocIndex.py" timestamp="1521644882041">
+        <mark key="'" line="101" column="0" />
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="101" column="93" />
+        <mark key="^" line="26" column="4" />
+        <mark key="." line="26" column="4" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/KerasModels.py" timestamp="1520865476493">
+        <mark key="'" line="9" column="0" />
+        <mark key="[" line="42" column="32" />
+        <mark key="]" line="42" column="45" />
+        <mark key="." line="42" column="45" />
+        <mark key="^" line="42" column="45" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/Helpers/ConsoleHelpers.py" timestamp="1521645053005">
+        <mark key="'" line="1" column="12" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="1" column="25" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/utils/TypoRemapper.py" timestamp="1521645280074">
+        <mark key="'" line="49" column="0" />
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="46" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/KerasModelBuilder.py" timestamp="1521126479857">
+        <mark key="'" line="133" column="0" />
+        <mark key="[" line="51" column="26" />
+        <mark key="]" line="51" column="31" />
+        <mark key="." line="51" column="31" />
+        <mark key="^" line="51" column="31" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" timestamp="1522420253264">
+        <mark key="'" line="173" column="0" />
+        <mark key="[" line="167" column="29" />
+        <mark key="]" line="167" column="29" />
+        <mark key="." line="167" column="29" />
+        <mark key="^" line="167" column="29" />
+      </file>
+      <file name="$USER_HOME$/personal/oxlc/tic-tac-toe/python/tictactoe.py" timestamp="1521762060847">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="1" column="99" />
+        <mark key="^" line="42" column="45" />
+        <mark key="." line="42" column="45" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/CleanText.py" timestamp="1520608004820">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="8" column="89" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
+        <mark key="^" line="9" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/DocumentClassifier.py" timestamp="1520614155578">
+        <mark key="'" line="82" column="8" />
+        <mark key="[" line="90" column="57" />
+        <mark key="]" line="90" column="65" />
+        <mark key="^" line="90" column="65" />
+        <mark key="." line="90" column="65" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/BuildDocumentPrediction.py" timestamp="1520887666843">
+        <mark key="'" line="130" column="0" />
+        <mark key="[" line="94" column="31" />
+        <mark key="]" line="17" column="54" />
+        <mark key="^" line="17" column="54" />
+        <mark key="." line="17" column="54" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/CleanTextFile.py" timestamp="1520543938027">
+        <mark key="'" line="30" column="0" />
+        <mark key="[" line="27" column="38" />
+        <mark key="]" line="28" column="11" />
+        <mark key="." line="28" column="11" />
+        <mark key="^" line="28" column="11" />
+      </file>
+      <file name="$USER_HOME$/projects/classification-scripts/BuildTrainingSet.py" timestamp="1521034408434">
+        <mark key="'" line="94" column="0" />
+        <mark key="[" line="94" column="0" />
+        <mark key="]" line="96" column="62" />
+        <mark key="." line="92" column="95" />
+        <mark key="^" line="91" column="68" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="96" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="90" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="56" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="20" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="14" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="3" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="7" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="12" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="15" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="25" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="30" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="33" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="35" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="40" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="42" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="46" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="50" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="55" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="62" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="65" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="70" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="89" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="77" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="76" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="85" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="122" column="0" filename="$USER_HOME$/projects/classification-scripts/BuildClassifier.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/projects/classification-scripts/Helpers/RemoveFiles.py" />
+      <jump line="25" column="0" filename="$USER_HOME$/projects/classification-scripts/Helpers/RemoveFiles.py" />
+      <jump line="28" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="58" column="9" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="56" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="66" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="61" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="57" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="52" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="47" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="37" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="31" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="27" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="24" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="20" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="6" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="3" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="18" column="13" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="45" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="35" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="21" column="8" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="22" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="25" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="29" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="33" column="0" filename="$USER_HOME$/projects/classification-scripts/BenchmarkResults.py" />
+      <jump line="17" column="17" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="18" column="25" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="49" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="58" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="170" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="125" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="121" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="117" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="112" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="107" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="105" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="100" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="96" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="90" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="85" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="81" column="21" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="79" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="71" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="59" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="56" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="50" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="44" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="39" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="31" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="26" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="22" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="8" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="11" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="16" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="21" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="38" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="168" column="44" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="189" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="182" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="175" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="167" column="29" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="130" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="139" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="145" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="149" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="154" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="161" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="171" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+      <jump line="173" column="0" filename="$USER_HOME$/projects/classification-scripts/PredictDocuments.py" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text>i</text>
+      </register>
+      <register name="-" type="4">
+        <text>i</text>
+      </register>
+      <register name="/" type="4">
+        <text>format_weights</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludChmJ3RvdGFsOiB7dG90YWx9JykK</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLmRvY19yYW5rID0gZGljdCgpCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLm92ZXJhbGwgPSAwLjAK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">aW1wb3J0IGdsb2IK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAKCg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIGVsc2UK</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+    <search>
+      <last-search>format_weights</last-search>
+      <last-offset />
+      <last-pattern>format_weights</last-pattern>
+      <last-replace>cleanset</last-replace>
+      <last-substitute>save_result</last-substitute>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>docset</entry>
+        <entry>files</entry>
+        <entry>get_output_dir</entry>
+        <entry>general</entry>
+        <entry>json.load</entry>
+        <entry>dump</entry>
+        <entry>combo</entry>
+        <entry>get_output</entry>
+        <entry>'_'</entry>
+        <entry>save_result</entry>
+        <entry>smooth_ldi</entry>
+        <entry encoding="base64">d2l0aCA=</entry>
+        <entry>json</entry>
+        <entry>with open</entry>
+        <entry>result</entry>
+        <entry>model_from_json</entry>
+        <entry>fit</entry>
+        <entry>position</entry>
+        <entry>make_move</entry>
+        <entry>format_weights</entry>
+      </history-search>
+      <history-cmd>
+        <entry>d</entry>
+        <entry>set scrolloff=4</entry>
+        <entry>set scrolloff=3</entry>
+        <entry>set scrolloff=5</entry>
+        <entry>set ignorecase</entry>
+        <entry>%s/MAX_NB/MAX_NUM/g</entry>
+        <entry>w;</entry>
+        <entry>%s/training_set/cleanset/g</entry>
+        <entry>e</entry>
+        <entry>2</entry>
+        <entry>%s/docset/cleanset/g</entry>
+        <entry>sw</entry>
+        <entry>Ww</entry>
+        <entry>W</entry>
+        <entry>colors</entry>
+        <entry>wq</entry>
+        <entry>q</entry>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>

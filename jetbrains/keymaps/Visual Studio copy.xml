@@ -1,0 +1,8 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="CollapseSelection" />
+  <action id="EditorChooseLookupItemDot" />
+  <action id="GotoCustomRegion" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+</keymap>
