@@ -69,6 +69,7 @@ set sidescrolloff=7
 set smartcase
 set softtabstop=4
 set undolevels=1000
+set nrformats-=octal
 
 highlight ColorColumn ctermbg=black
 set colorcolumn=80
