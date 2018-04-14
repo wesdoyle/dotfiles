@@ -1,0 +1,116 @@
+auto_view text/ttml
+
+set imap_user = $MUTT_EMAIL_ADDRESS
+# set imap_pass = `security find-generic-password -w -s mutt -a "$MUTT_EMAIL_ADDRESS"`
+set imap_pass = `getpassword email_id`
+
+set folder = "imaps://imap.gmail.com:993" # Base IMAP path.
+set spoolfile = "+INBOX" # Path to inbox, + is replaced with 'folder'.
+set postponed="+[Gmail]/Drafts"
+set move = no
+set smtp_authenticators = 'gssapi:login'
+unset record # Gmail's SMTP servers take care of this
+
+set realname = $MUTT_REALNAME
+set from = $MUTT_EMAIL_ADDRESS
+set smtp_url = $MUTT_SMTP_URL
+set smtp_pass = `security find-generic-password -w -s mutt -a "$MUTT_EMAIL_ADDRESS"`
+
+# Store cache data in ~/.mutt/
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+#
+# # Sort email by threads and sort those threads by date, newest first.
+set sort=threads
+set sort_aux = 'reverse-last-date-received'
+#
+set timeout = 3
+set mail_check = 900
+
+macro index .. <limit>~d<10d
+bind index G imap-fetch-mail
+
+# Try and prevent imap timeouts
+# set imap_keepalive = 300
+# Use gmail IMAP IDLE support.
+set imap_idle
+set imap_check_subscribed
+# unset imap_passive
+# unset imap_peek
+
+# make sure that you are using mutt linked against slang, not ncurses
+# "mutt -v" to check this.
+#
+
+# basic colors ---------------------------------------------------------
+color normal        blue            default
+color error         red             default
+color tilde         black           default
+color message       cyan            default
+color markers       brightblue      black
+color attachment    white           default
+color search        brightmagenta   default
+#color status        J_black         J_status
+color status        brightyellow    black
+color indicator     cyan            brightblue
+color tree          green           default                                     # arrow in threads
+
+# basic monocolor screen
+mono  bold          bold
+mono  underline     underline
+mono  indicator     reverse
+mono  error         bold
+
+# index ----------------------------------------------------------------
+
+color index         red             default         "~D(!~p|~p)"                # deleted
+color index         blue            default         "~A"                        # all messages
+color index         brightred       default         "~E"                        # expired messages
+color index         green           black           "~N"                        # new messages
+color index         blue            default         "~O"                        # old messages
+color index         yellow          default         "~Q"                        # messages that have been replied to
+color index         brightblack     default         "~R"                        # read messages
+color index         blue            default         "~U"                        # unread messages
+color index         blue            default         "~U~$"                      # unread, unreferenced messages
+color index         brightyellow    default         "~v"                        # messages part of a collapsed thread
+color index         brightmagenta   default         "~P"                        # messages from me
+color index         cyan            default         "~p!~F"                     # messages to me
+color index         cyan            default         "~N~p!~F"                   # new messages to me
+color index         cyan            default         "~U~p!~F"                   # unread messages to me
+color index         brightblue      default         "~R~p!~F"                   # messages to me
+color index         red             default         "~F"                        # flagged messages
+color index         red             default         "~F~p"                      # flagged messages to me
+color index         red             default         "~N~F"                      # new flagged messages
+color index         red             default         "~N~F~p"                    # new flagged messages to me
+color index         red             default         "~U~F~p"                    # new flagged messages to me
+color index         black           red             "~D"                        # deleted messages
+color index         brightcyan      default         "~v~(!~N)"                  # collapsed thread with no unread
+color index         yellow          default         "~v~(~N)"                   # collapsed thread with some unread
+color index         green           default         "~N~v~(~N)"                 # collapsed thread with unread parent
+color index         red             black           "~v~(~F)!~N"                # collapsed thread with flagged, no unread
+color index         yellow          black           "~v~(~F~N)"                 # collapsed thread with some unread & flagged
+color index         green           black           "~N~v~(~F~N)"               # collapsed thread with unread parent & flagged
+color index         green           black           "~N~v~(~F)"                 # collapsed thread with unread parent, no unread inside, but some flagged
+color index         cyan            black           "~v~(~p)"                   # collapsed thread with unread parent, no unread inside, some to me directly
+color index         yellow          red             "~v~(~D)"                   # thread with deleted (doesn't differentiate between all or partial)
+
+# message headers ------------------------------------------------------
+
+#color header        brightgreen     default         "^"
+color hdrdefault    blue            default
+color header        green           white           "^(From)"
+color header        blue            default         "^(Subject)"
+
+# body -----------------------------------------------------------------
+
+color quoted        blue            default
+color quoted1       cyan            default
+color quoted2       yellow          default
+color quoted3       red             default
+color quoted4       brightred       default
+
+color signature     brightgreen     default
+color bold          black           default
+color underline     black           default
+color normal        default         default
