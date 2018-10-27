@@ -13,7 +13,6 @@ call vundle#begin()
 
 " plugins
 Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-surround'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'christoomey/vim-tmux-navigator'
@@ -23,11 +22,12 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-markdown'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'nvie/vim-flake8'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'pangloss/vim-javascript'
+Plugin 'janko-m/vim-test'
+Plugin 'alfredodeza/coveragepy.vim'
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -37,9 +37,6 @@ filetype plugin indent on
 
 set term=screen-256color
 colorscheme PaperColor
-
-
-let python_highlight_all=1
 
 set autoindent
 set bg=dark
@@ -58,7 +55,7 @@ set nowrap
 set number
 set relativenumber
 set ruler
-set scrolloff=5
+set scrolloff=8
 set showmatch
 set shiftwidth=4
 set shortmess=I
@@ -70,9 +67,12 @@ set smartcase
 set softtabstop=4
 set undolevels=1000
 set nrformats-=octal
+set vb
 
 highlight ColorColumn ctermbg=black
 set colorcolumn=80
+
+let g:syntastic_python_flake8_args = "--ignore=E501 --max-complexity 10"
 
 "CtrlP
 let g:ctrlp_map = '<c-p>'
@@ -83,6 +83,8 @@ let g:airline_powerline_fonts = 1
 
 "NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+let test#python#runner = 'pytest'
 
 "Gvim mods
 set encoding=utf-8
@@ -117,6 +119,16 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+
+nmap <silent> <leader>t : TestNearest<CR>
+nmap <silent> <leader>T : TestFile<CR>
+nmap <silent> <leader>a : TestSuite<CR>
+nmap <silent> <leader>l : TestLast<CR>
+nmap <silent> <leader>v : TestVisit<CR>
+
+map gn :bn<cr>
+map gp :bp<cr>
+map gd :bd<cr>
 
 " Remove all trailing whitespace by pressing F4
 noremap <F4> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
