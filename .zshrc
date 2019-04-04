@@ -1,9 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Set your current project here, which should be located in ~/projects/
-export CURRENT_PROJECT="blog"
-
 # Path to your oh-my-zsh installation.
 export ZSH=/home/wes/.oh-my-zsh
 
@@ -127,7 +124,6 @@ alias hl="heroku login"
 # vps stuff
 alias finnegan="ssh root@$FINNEGAN_VPS"
 
-source virtualenvwrapper.sh
 export PROJECT_HOME=/home/wes/projects
 export GOPATH=$HOME/Go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
