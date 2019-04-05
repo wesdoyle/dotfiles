@@ -16,6 +16,7 @@
 [alias]
     pm= "!git push -u origin master"
     c = commit -m
+    co = checkout
     a = add -A
     st = status
     pu = push

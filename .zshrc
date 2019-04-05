@@ -19,6 +19,10 @@ ZSH_THEME="cloud"
  HIST_STAMPS="mm/dd/yyyy"
 source $ZSH/oh-my-zsh.sh
 
+unset LSCOLORS
+export CLICOLOR=1
+export CLICOLOR_FORCE=1
+
 #lazy stuff
 alias cd..="cd .."
 alias ..="cd .."
