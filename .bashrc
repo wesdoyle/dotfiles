@@ -116,9 +116,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-# added by Anaconda3 4.3.1 installer
-export PATH="/home/finn/anaconda3/bin:$PATH"
