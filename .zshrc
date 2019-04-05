@@ -7,7 +7,8 @@ export PROJECT_HOME=/home/wes/projects
 
 # ZSH_THEME="candy"
 # ZSH_THEME="amuse"
-ZSH_THEME="gallois"
+# ZSH_THEME="gallois"
+ZSH_THEME="cloud"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
@@ -16,9 +17,6 @@ ZSH_THEME="gallois"
  COMPLETION_WAITING_DOTS="true"
  HIST_STAMPS="mm/dd/yyyy"
 source $ZSH/oh-my-zsh.sh
-
-alias editzsh="vim ~/.zshrc"
-alias ohmyzsh="vm ~/.oh-my-zsh"
 
 #lazy stuff
 alias cd..="cd .."
@@ -53,6 +51,7 @@ alias dotfiles="cd ~/dotfiles && git status"
 alias editzshrc="vim ~/dotfiles/.zshrc"
 alias editvimrc="vim ~/dotfiles/.vimrc"
 alias edittmux="vim ~/dotfiles/tmux.config"
+alias ohmyzsh="vm ~/.oh-my-zsh"
 
 # heroku stuff
 alias hl="heroku login"
