@@ -4,6 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/wes/.oh-my-zsh
 export PROJECT_HOME=/home/wes/projects
+export CURRENT_PROJECT=riverrun
 
 # ZSH_THEME="candy"
 # ZSH_THEME="amuse"
