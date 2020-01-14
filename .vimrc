@@ -28,6 +28,7 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'janko-m/vim-test'
 Plugin 'alfredodeza/coveragepy.vim'
+Plugin 'elixir-editors/vim-elixir'
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
