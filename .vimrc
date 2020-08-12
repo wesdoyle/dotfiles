@@ -1,17 +1,11 @@
 " Wes Doyle vimrc
-" Last Update March 20 2018
 
 set nocompatible
-
 syntax on
-
-" Vundle begins here; turn off filetype temporarily
-" set the runtime path to include Vundle and initialize
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" plugins
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -30,14 +24,23 @@ Plugin 'janko-m/vim-test'
 Plugin 'alfredodeza/coveragepy.vim'
 Plugin 'elixir-editors/vim-elixir'
 
-" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
 call vundle#end()
+
 filetype plugin indent on
 
+" colors
 set term=screen-256color
-colorscheme PaperColor
+colorscheme one
+let g:airline_theme='ayu_mirage'
+let g:airline_powerline_fonts = 1
+set termguicolors
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+highlight ColorColumn ctermbg=black
+set colorcolumn=80
+
 
 set autoindent
 set bg=dark
@@ -54,33 +57,25 @@ set noswapfile
 set novb
 set nowrap
 set number
-set relativenumber
 set ruler
 set scrolloff=8
 set showmatch
-set shiftwidth=4
+set shiftwidth=2
 set shortmess=I
 set showcmd
 set showmode
 set sidescroll=1
 set sidescrolloff=7
 set smartcase
-set softtabstop=4
-set undolevels=1000
+set softtabstop=2
+set undolevels=100
 set nrformats-=octal
 set vb
-
-highlight ColorColumn ctermbg=black
-set colorcolumn=80
 
 let g:syntastic_python_flake8_args = "--ignore=E501 --max-complexity 10"
 
 "CtrlP
 let g:ctrlp_map = '<c-p>'
-
-"Airline
-let g:airline_theme='tomorrow'
-let g:airline_powerline_fonts = 1
 
 "NERDTree
 map <C-n> :NERDTreeToggle<CR>
