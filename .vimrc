@@ -23,6 +23,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'janko-m/vim-test'
 Plugin 'alfredodeza/coveragepy.vim'
 Plugin 'elixir-editors/vim-elixir'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'wadackel/vim-dogrun'
 
 Plugin 'VundleVim/Vundle.vim'
 
@@ -32,7 +34,7 @@ filetype plugin indent on
 
 " colors
 set term=screen-256color
-colorscheme one
+colorscheme dogrun
 let g:airline_theme='ayu_mirage'
 let g:airline_powerline_fonts = 1
 set termguicolors
@@ -68,6 +70,9 @@ set sidescroll=1
 set sidescrolloff=7
 set smartcase
 set softtabstop=2
+" set ttimeout
+" set timeoutlen=100
+" set ttimeoutlen=100
 set undolevels=100
 set nrformats-=octal
 set vb
@@ -119,8 +124,6 @@ nnoremap <C-l> <C-w>l
 nmap <silent> <leader>t : TestNearest<CR>
 nmap <silent> <leader>T : TestFile<CR>
 nmap <silent> <leader>a : TestSuite<CR>
-nmap <silent> <leader>l : TestLast<CR>
-nmap <silent> <leader>v : TestVisit<CR>
 
 map gn :bn<cr>
 map gp :bp<cr>

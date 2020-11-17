@@ -38,3 +38,6 @@ export CLICOLOR_FORCE=1
 [ -f "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" ] && source "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env"
 export DENO_INSTALL="/Users/wes/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
