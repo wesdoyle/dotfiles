@@ -25,6 +25,8 @@ Plugin 'alfredodeza/coveragepy.vim'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'wadackel/vim-dogrun'
+Plugin 'chr4/nginx.vim'
+Plugin 'chr4/sslsecure.vim'
 
 Plugin 'VundleVim/Vundle.vim'
 
