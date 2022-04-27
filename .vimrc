@@ -49,7 +49,6 @@ set colorcolumn=80
 set autoindent
 set bg=dark
 set backspace=indent,eol,start
-set expandtab
 set ignorecase
 set incsearch
 set laststatus=2
