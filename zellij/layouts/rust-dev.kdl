@@ -1,0 +1,14 @@
+layout {
+    pane size=1 borderless=true {
+        plugin location="compact-bar"
+    }
+    pane split_direction="vertical" {
+        pane command="nvim" size="70%"
+        pane split_direction="horizontal" {
+            pane command="bash" {
+                args "-c" "cargo watch -x clippy"
+            }
+            pane  // general terminal
+        }
+    }
+}

@@ -1,0 +1,44 @@
+// ~/.config/zellij/config.kdl
+
+// Use Alacritty's built-in theme handling rather than fighting it
+theme "default"
+
+// Default to your preferred editor
+env {
+    EDITOR "nvim"
+}
+
+// The default Ctrl-based keybinds conflict with a lot of Neovim usage.
+// Switching the unlock/mode key to Alt avoids most collisions.
+// This works because of the `option_as_alt = "Both"` we set in Alacritty.
+keybinds {
+    // Unbind the default Ctrl-based mode switches you'll hit by accident in nvim
+    unbind "Ctrl g"  // lock
+    unbind "Ctrl p"  // pane
+    unbind "Ctrl t"  // tab
+    unbind "Ctrl n"  // resize
+    unbind "Ctrl s"  // scroll/search
+    unbind "Ctrl o"  // session
+    unbind "Ctrl h"  // move
+
+    shared_except "locked" {
+        bind "Alt g" { SwitchToMode "locked"; }
+        bind "Alt p" { SwitchToMode "pane"; }
+        bind "Alt t" { SwitchToMode "tab"; }
+        bind "Alt n" { SwitchToMode "resize"; }
+        bind "Alt s" { SwitchToMode "scroll"; }
+        bind "Alt o" { SwitchToMode "session"; }
+        bind "Alt h" { SwitchToMode "move"; }
+    }
+
+    locked {
+        bind "Alt g" { SwitchToMode "normal"; }
+    }
+}
+
+// Session behavior
+default_layout "compact"   // "compact" hides the hint bar at bottom; use "default" if you want it while learning
+pane_frames true
+scrollback_editor "nvim"    // press 'e' in scroll mode to open scrollback in nvim
+mouse_mode true
+copy_on_select true
